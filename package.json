@@ -2,6 +2,7 @@
   "name": "dancing-goat",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://makma.github.io/react-github-pages/",
   "devDependencies": {
     "cpy-cli": "^2.0.0",
     "cross-env": "^5.2.0",
@@ -43,6 +44,8 @@
     "start": "react-scripts start",
     "build": "cross-env CI=true react-scripts build && cpy build/index.html build --rename=200.html",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
