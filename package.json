@@ -13,10 +13,12 @@
   },
   "dependencies": {
     "@chevtek/react-spinners": "^1.0.5",
+    "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
     "immutable": "^3.8.2",
     "kentico-cloud-delivery": "^5.1.0",
     "lodash": "^4.17.10",
+    "npm": "^6.4.1",
     "qs": "^6.5.2",
     "react": "^16.4.2",
     "react-cookie": "^3.0.4",
